@@ -56,7 +56,7 @@ a:hover { color: var(--tertiary); }
 
 // ---------- 左栏：站名 / 搜索 / 主题切换 ----------
 .page-title { font-size: 1.45rem; margin: 0; white-space: nowrap; letter-spacing: -0.02em; }
-.page-title a { color: var(--dark); }
+.page-title a { color: var(--dark); white-space: nowrap; }
 .page-title a::before {
   content: "";
   display: inline-block;
@@ -359,11 +359,11 @@ body[data-slug="index"] {
 
 // ---------- 响应式 ----------
 @media (min-width: 801px) and (max-width: 1199px) {
-  .page > #quartz-body { grid-template-columns: 250px minmax(0, 1fr); column-gap: 2.5rem; }
-  .page > #quartz-body .sidebar.left { padding: 4.5rem 1.75rem 2rem 1.5rem; }
+  .page > #quartz-body { grid-template-columns: 270px minmax(0, 1fr); column-gap: 2.5rem; }
+  .page > #quartz-body .sidebar.left { padding: 4.5rem 1.5rem 2rem 1.25rem; }
   .page > #quartz-body .sidebar.right { padding: 0; }
   .page > #quartz-body .center { padding-right: 1.5rem; box-sizing: border-box; }
-  .page-title { font-size: 1.3rem; }
+  .page-title { font-size: 1.2rem; }
   body[data-slug="index"] article h2[id="阅读与探索"] + ul { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 800px) {
