@@ -1,6 +1,6 @@
 ---
-title: 实验复盘标题
-date: 2026-10-24
+title: "{{title}}"
+date: {{date}}
 tags: [实践复盘]
 draft: true
 ---

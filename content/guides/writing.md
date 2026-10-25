@@ -43,6 +43,17 @@ draft: false
 
 图片放入 `content/assets/`，在 Markdown 中使用相对路径引用。公式使用美元符号，独立公式使用双美元符号。
 
+## 用 Obsidian 写作
+
+推荐用 [Obsidian](https://obsidian.md) 打开仓库里的 `content/` 文件夹作为仓库（vault）。
+
+1. 在对应主题文件夹里新建笔记，文件名即标题。
+2. 按 `Ctrl+P` 运行「模板：插入模板」，选择 `knowledge` 或 `paper`，标题和日期会自动填好。
+3. 图片直接粘贴，会自动保存到 `content/assets/`。
+4. 写完把 `draft` 改为 `false`，按 `Ctrl+P` 运行「Git: Commit-and-sync」，一两分钟后网站更新。
+
+Obsidian Git 插件在启动时会自动拉取最新内容，在多台电脑上写作也不会冲突。
+
 ## 本地预览
 
 在项目目录运行 `npm ci`，然后运行 `npm run dev`。按终端显示的网址打开预览。发布前使用 `npm run build` 检查构建。

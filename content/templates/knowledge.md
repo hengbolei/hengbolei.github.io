@@ -1,7 +1,8 @@
 ---
-title: 知识总结标题
-date: 2026-10-24
-tags: [知识总结]
+title: "{{title}}"
+description: 一句话介绍这篇笔记
+date: {{date}}
+tags: [知识专题]
 draft: true
 ---
 

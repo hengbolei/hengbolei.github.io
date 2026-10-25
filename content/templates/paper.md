@@ -1,8 +1,8 @@
 ---
-title: 论文标题：我的精读笔记
+title: "{{title}}"
 description: 这篇论文解决什么问题
-date: 2026-10-24
-updated: 2026-10-24
+date: {{date}}
+updated: {{date}}
 tags: [论文精读]
 draft: true
 ---
