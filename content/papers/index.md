@@ -8,6 +8,7 @@ date: 2026-10-24
 
 ## 主题
 
+- [[papers/Transformer/index|Transformer]] Transformer 架构及其核心改进。
 - [[papers/llm/index|大语言模型]] 预训练、微调、对齐与推理方向的论文。
 - [[papers/rag/index|RAG 与检索]] 检索、重排与上下文构建方向的论文。
 - [[papers/multimodal/index|多模态]] 视觉语言模型与跨模态对齐方向的论文。
