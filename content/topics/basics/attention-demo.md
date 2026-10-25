@@ -6,6 +6,8 @@ updated: 2026-10-24
 tags:
   - 示例
   - Transformer
+aliases:
+  - topics/attention-demo
 ---
 
 > [!info] 功能示例
@@ -49,4 +51,4 @@ def attention(q, k, v):
 
 公式来源：[Attention Is All You Need](https://arxiv.org/abs/1706.03762)。后续精读应结合原文核对实验和论证。
 
-回到 [[topics|知识专题]]，或查看 [[papers|论文精读]]。
+回到 [[topics/basics|深度学习基础]]，或查看 [[papers|论文精读]]。

@@ -9,6 +9,7 @@ configuration:
   ignorePatterns:
     - private
     - templates
+    - practice
     - .obsidian
   theme:
     fontOrigin: googleFonts

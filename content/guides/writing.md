@@ -7,7 +7,21 @@ tags:
 
 ## 新增文章
 
-在 `content/papers/`、`content/topics/` 或 `content/practice/` 创建 Markdown 文件。复制 `content/templates/` 中的模板即可开始。模板目录不会发布。
+文章按「栏目 / 主题」存放：在 `content/topics/<主题>/` 或 `content/papers/<主题>/` 下创建 Markdown 文件。复制 `content/templates/` 中的模板即可开始。模板目录不会发布。
+
+## 新增主题
+
+在栏目下新建一个英文文件夹（会成为网址的一部分），放入 `index.md`：
+
+```yaml
+---
+title: 主题名称
+description: 一句话介绍这个主题
+order: 5
+---
+```
+
+`order` 决定主题在左侧栏中的顺序，数字越小越靠前。保存后左侧栏会自动出现这个主题。
 
 文章开头保留 YAML 信息：
 
